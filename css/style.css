@@ -26,7 +26,7 @@ body {
   text-decoration: none;
 }
 
-/* Header */
+/*=========== HEADER ===========*/
 .logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
@@ -74,8 +74,9 @@ body {
 .address-item:focus {
   color: var(--accent-color);
 }
+/*=========== END HEADER ===========*/
 
-/* Hero */
+/*=========== HERO ===========*/
 .hero {
   background-color: #2f303a;
 }
@@ -101,8 +102,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+/*=========== END HERO ===========*/
 
-/* Features */
+/*=========== FEATURES ===========*/
 .section-title.visually-hidden {
   position: absolute;
   width: 1px;
@@ -128,16 +130,18 @@ body {
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
+/*=========== END FEATURES ===========*/
 
-/* What are we doing  */
+/*=========== WHAT ARE WE DOING ===========*/
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
 }
+/*=========== END WHAT ARE WE DOING ===========*/
 
-/* Our team */
+/*=========== OUR TEAM ===========*/
 .section.team {
   background-color: var(--secondary-bg-color);
 }
@@ -156,7 +160,10 @@ body {
 .section-list .position {
   font-weight: 400;
 }
-/* Footer */
+
+/*=========== END OUR TEAM ===========*/
+
+/*=========== FOOTER ===========*/
 .footer {
   background-color: #2f303a;
 }
@@ -178,3 +185,47 @@ body {
 
 .footer .address-item:focus {
 }
+/*=========== END FOOTER ===========*/
+
+/*=========== PORTFOLIO HTML ===========*/
+
+/*=========== FILTER ===========*/
+.section-filter .filter-item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.section-filter .filter-item.active {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.section-filter .filter-item:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/*=========== END FILTERL ===========*/
+
+/*=========== PROJECT-CARD ===========*/
+.project-card .card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.project-card .card-description {
+  font-size: 16px;
+  line-height: 1.9;
+
+  color: var(--secondary-text-color);
+}
+/*=========== END PROJECT-CARD ===========*/
