@@ -40,11 +40,15 @@ body {
   color: var(--accent-color);
 }
 
-.logo > .last-part {
+.footer > .logo {
   color: #ffffff;
 }
 
 .logo:focus {
+}
+
+.site-nav {
+  display: flex;
 }
 
 .site-nav .link {
